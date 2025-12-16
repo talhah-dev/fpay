@@ -19,13 +19,10 @@ import { Button } from '@/components/ui/button'
 import { Card, CardHeader, CardDescription, CardTitle, CardFooter, CardContent } from '@/components/ui/card'
 import { Label } from '@/components/ui/label'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
-import { Spinner } from '@/components/ui/spinner'
 import { Trash2, PlayCircle } from 'lucide-react';
-import EditProject from '@/components/EditProject'
 import { toast } from 'sonner'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import Link from 'next/link'
-import { EmptyDemo } from '@/components/EmptyDemo'
 
 const CreateProject = () => {
     const [status, setStatus] = useState<string>("pending")
